@@ -63,11 +63,3 @@ foreach my $l(@{$lists}) {
 }
 
 exit;
-
-
-=pod
-
-curl -u 6972558badf698ab672e19a2ec3619f1:x https://mindelusions.freshbooks.com/api/2.1/xml-in -d \
-'<?xml version="1.0" encoding="utf-8"?><request method="client.list"></request>'
-
-=cut
