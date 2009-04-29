@@ -6,8 +6,8 @@ use lib 'lib';
 use Data::Dumper;
 use WWW::FreshBooks::API;
 
-my $url = "https://mindelusions.freshbooks.com/api/2.1/xml-in";
-my $key = "6972558badf698ab672e19a2ec3619f1";
+my $url = "https://__YOUR_URL__.freshbooks.com/api/2.1/xml-in";
+my $key = "__YOUR_API_KEY__";
 
 #my $method = "category.get";
 #my $args = {category_id => 1};
